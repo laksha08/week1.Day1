@@ -1,0 +1,18 @@
+package week1.Day2;
+
+public class FibonacciSeries {
+public static void main(String[] args) {
+	
+	 // Goal: To find Fibonacci Series for a given range 0 1 1 2 3 5 8 13 
+	 int range = 8;
+	int firstNum = 0;
+	int secNum = 1;
+	for (int i = 1; i<= range ; i++) {
+		System.out.println(firstNum);
+	int	third = firstNum + secNum;
+	firstNum  = secNum;
+	secNum = third;
+		
+	}
+}
+}
