@@ -1,0 +1,15 @@
+package week1.Day2;
+
+public class Palindrome {
+	public static void main(String[] args) {
+		String val = "madam";
+		String revVal = "";
+		for (int i = val.length()-1 ; i>= 0 ; i--) {
+			revVal = revVal + val.charAt(i);
+		}
+		if (val.equalsIgnoreCase(revVal))
+			System.out.println(val + " is a Palindrome");
+		else
+			System.out.println(val + " is Not a Palindrome");
+		}
+	}
