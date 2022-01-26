@@ -1,0 +1,17 @@
+package week1.Day2;
+
+public class CharOccurance {
+
+	public static void main(String[] args) {
+		String str = "welcome to chennai";
+		int count = 0;
+		char search = 'e';
+		for (int i = 0; i< str.length(); i++) {
+			if(str.charAt(i)== search) {
+				count = count +1;
+			}
+		}
+         System.out.println("The Character " + search + " appears " + count + " Times");
+	}
+
+}
